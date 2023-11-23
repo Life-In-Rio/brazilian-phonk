@@ -1,0 +1,83 @@
+.judul {
+    margin-left: 510px;
+    margin-top: 40px;
+  }
+  .h2 {
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-seif;
+    margin-bottom: 40px;
+  }
+  .bestseller{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  .p{
+    font-style: italic;
+    color: chocolate;
+  }
+  .potrait{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+  }
+  .titleitem{
+    font-family: sans-serif;
+  }
+  .price{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .items{
+    display: flex;
+    justify-content: center;
+  }
+  .item{
+    margin: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+  }
+  body{
+    background-image: url(image/4419157.jpg); background-size: 1400px;
+  }
+  .items1{
+    display: flex;
+    justify-content: center;
+  }
+  .item1{
+    margin: 20px;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .table{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .img{
+    width: 200px;
+    height: 200px;
+  }
+  table,
+  th,
+  td{
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+  table{
+    width: 100%;
+    background-color: white;
+  }
+  th{
+    text-align: center;
+    height: 100px;
+    background-color: chocolate;
+  }
+  td{
+    text-align: center;
+    padding: 10px;
+    
+  }
