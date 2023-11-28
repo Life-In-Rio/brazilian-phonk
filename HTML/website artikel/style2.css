@@ -1,0 +1,108 @@
+@media only screen and (max-width: 600px) {
+  body {
+    color: rgb(238, 30, 30);
+    font-size: 20px;
+    /* display: grid; */
+    background-color: black;
+  }
+
+ 
+  /* .table1 {
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .items {
+    display: grid;
+    grid-template-columns:  auto auto;
+  }
+}
+
+.judul {
+  display: inline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  border-radius: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-left: 400px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-seif;
+  margin-bottom: 40px;
+}
+.bestseller {
+  text-align: center;
+  font-family: sans-serif;
+}
+.p {
+  font-style: italic;
+  color: rgb(26, 25, 24);
+}
+.potrait {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+.titleitem {
+  font-family: sans-serif;
+}
+.price {
+  font-family: "Courier New", Courier, monospace;
+}
+.items {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  margin: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+body {
+  background-color: burlywood;
+}
+.items1 {
+  display: flex;
+  justify-content: center;
+}
+.item1 {
+  margin: 20px;
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.table {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+table,
+th,
+td {
+  border: 2px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+table {
+  width: 100%;
+  background-color: white;
+}
+th {
+  text-align: center;
+  height: 100px;
+  background-color: chocolate;
+}
+td {
+  text-align: center;
+  padding: 10px;
+}

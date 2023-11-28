@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap");
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  margin-left: 30px;
+}
+.h1 {
+  display: inline;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 30px;
+}
+
+.home {
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+.product {
+  border-right: 2px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.contact {
+  padding-left: 10px;
+}
+.section {
+  margin-left: 30px;
+}
+.poto {
+  width: 650px;
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+p {
+  font-size: 20px;
+  margin-left: 30px;
+}
+h3 {
+  margin-left: 30px;
+}
+footer {
+  background-color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  display: flex;
+}
+.footer1{
+  padding-bottom: 25px;
+}
+.saran {
+  margin-left: 20px;
+
+}
+.kotak{
+  line-height: 50px;
+}
+.form{
+  margin-left: 80px;
+}
+.About{
+  font-size: 30px;
+  margin-left: 40px;
+}
+.Follow{
+margin-left: 160px;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: white;
+    margin-right: 30px;
+  }
+  p{
+    font-size: 12px;
+    text-align: justify;
+    
+  }
+  .poto{
+    width: 80%;
+    height: 80%;
+  }
+h1{
+  font-size: 18px;
+}
+.h3{
+  font-size: 15px;
+}
+h3{
+  font-size: 15px;
+}
+}
