@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 90%;
+}
+.hadist{
+    display:flex;
+    justify-content: center;
+}
